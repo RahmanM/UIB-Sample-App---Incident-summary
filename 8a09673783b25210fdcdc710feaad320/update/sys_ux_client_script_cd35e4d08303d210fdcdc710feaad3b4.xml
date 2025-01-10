@@ -16,21 +16,25 @@
 * @param {ApiHelpers} params.helpers
 */
 function handler({api, event, helpers, imports}) {
+    //console.log(event);
+    
     api.setState('incidents_selected' ,  event.payload.selectionCount > 0);
+
+    api.setState('selected_incidents' ,  event.payload.query);
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>rahman</sys_created_by>
         <sys_created_on>2025-01-09 03:39:47</sys_created_on>
         <sys_id>cd35e4d08303d210fdcdc710feaad3b4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>On incidents selection</sys_name>
         <sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320">8a09673783b25210fdcdc710feaad320</sys_package>
         <sys_policy/>
         <sys_scope display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</sys_scope>
         <sys_update_name>sys_ux_client_script_cd35e4d08303d210fdcdc710feaad3b4</sys_update_name>
         <sys_updated_by>rahman</sys_updated_by>
-        <sys_updated_on>2025-01-09 03:45:35</sys_updated_on>
+        <sys_updated_on>2025-01-10 03:38:16</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

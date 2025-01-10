@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">afeaa7bf83b65210fdcdc710feaad313</macroponent>
+        <name>Update incident</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    
+    let data = {
+        table : "incident",
+        templateFields : "sys_id=ef43c6d40a0a0b5700c77f9bf387afe3^watch_list=62826bf03710200044e0bfc8bcbe5df1";
+    };
+
+    api.data.update_incident.execute(data);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>rahman</sys_created_by>
+        <sys_created_on>2025-01-09 04:55:00</sys_created_on>
+        <sys_id>0135e4d08303d210fdcdc710feaad3b5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Update incident</sys_name>
+        <sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320">8a09673783b25210fdcdc710feaad320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</sys_scope>
+        <sys_update_name>sys_ux_client_script_0135e4d08303d210fdcdc710feaad3b5</sys_update_name>
+        <sys_updated_by>rahman</sys_updated_by>
+        <sys_updated_on>2025-01-09 05:02:10</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</application>
+        <file_path/>
+        <instance_id>6d33ce443bbf8ad416e44a8aa4e45a1e</instance_id>
+        <instance_name>dev282533</instance_name>
+        <name>sys_ux_client_script_0135e4d08303d210fdcdc710feaad3b5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;afeaa7bf83b65210fdcdc710feaad313&lt;/macroponent&gt;&lt;name&gt;Update incident&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    
+    let data = {
+        table : "incident",
+        templateFields : "sys_id=ef43c6d40a0a0b5700c77f9bf387afe3^watch_list=62826bf03710200044e0bfc8bcbe5df1";
+    };
+
+    api.data.update_incident.execute(data);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rahman&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-09 04:55:00&lt;/sys_created_on&gt;&lt;sys_id&gt;0135e4d08303d210fdcdc710feaad3b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update incident&lt;/sys_name&gt;&lt;sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320"&gt;8a09673783b25210fdcdc710feaad320&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Incident Summary UIB"&gt;8a09673783b25210fdcdc710feaad320&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_0135e4d08303d210fdcdc710feaad3b5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rahman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-09 05:02:10&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1549721561</payload_hash>
+        <record_name>Update incident</record_name>
+        <reverted_from/>
+        <source>f83dccd0838f9210fdcdc710feaad3ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rahman</sys_created_by>
+        <sys_created_on>2025-01-09 05:02:10</sys_created_on>
+        <sys_id>b154eaa483c71210fdcdc710feaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194497101ae0000001</sys_recorded_at>
+        <sys_updated_by>rahman</sys_updated_by>
+        <sys_updated_on>2025-01-09 05:02:10</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>3954eaa405c712105198d663f36991cd</update_guid>
+        <update_guid_history>3954eaa405c712105198d663f36991cd:1549721561,d324e6e4fec71210b8ad22b4eedc3a3c:969053906,7cb2ee2459c7121052d48ad4bf2761fa:547843912</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rahman</sys_created_by>
+        <sys_created_on>2025-01-09 05:22:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>19017eda844e45369bfb1f47ba58eac4</sys_id>
+        <sys_metadata>0135e4d08303d210fdcdc710feaad3b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update incident</sys_name>
+        <sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320">8a09673783b25210fdcdc710feaad320</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</sys_scope>
+        <sys_scope_delete display_value="">3afc182c48464ef7914784ba70dc1e01</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_0135e4d08303d210fdcdc710feaad3b5</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_0135e4d08303d210fdcdc710feaad3b5">b154eaa483c71210fdcdc710feaad3ce</sys_update_version>
+        <sys_updated_by>rahman</sys_updated_by>
+        <sys_updated_on>2025-01-09 05:22:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
