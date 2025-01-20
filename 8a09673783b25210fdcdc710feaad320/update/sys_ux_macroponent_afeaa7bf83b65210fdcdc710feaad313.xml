@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <bundles/>
+        <bundles>[]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
@@ -12,9 +12,7 @@
         },
         "elementId": "column_layout_1",
         "elementLabel": "Column layout 1",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -28,9 +26,7 @@
                     },
                     "elementId": "__cmfflujjpyfaabbvzddffhhueeiidxspxq__column_1",
                     "elementLabel": "Groups Info",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -44,9 +40,7 @@
                                 },
                                 "elementId": "grid_container_1",
                                 "elementLabel": "Grid Container 1",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -60,9 +54,7 @@
                                             },
                                             "elementId": "stylized_text_1",
                                             "elementLabel": "Stylized text 1",
-                                            "eventMappings": [
-                                                
-                                            ],
+                                            "eventMappings": [],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -100,9 +92,7 @@
                                             },
                                             "elementId": "stylized_text_2",
                                             "elementLabel": "Stylized text 2",
-                                            "eventMappings": [
-                                                
-                                            ],
+                                            "eventMappings": [],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -351,18 +341,62 @@
                                         },
                                         {
                                             "definition": {
+                                                "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "stylized_text_5",
+                                            "elementLabel": "Stylized text 5",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "operation": {
+                                                    "operand": {
+                                                        "binding": {
+                                                            "address": [
+                                                                "seleted_group",
+                                                                "id"
+                                                            ]
+                                                        },
+                                                        "type": "STATE_BINDING"
+                                                    },
+                                                    "operator": "NOT"
+                                                },
+                                                "type": "UNARY"
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "configAria": {
+                                                    "container": {},
+                                                    "type": "MAP_CONTAINER"
+                                                },
+                                                "css": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "* { }"
+                                                },
+                                                "tag": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "h2"
+                                                },
+                                                "text": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Group manager info"
+                                                    }
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "definition": {
                                                 "id": "33d9c57fce38ce281001f4221f2b23e1",
                                                 "type": "MACROPONENT"
                                             },
                                             "elementId": "contact_card_1",
                                             "elementLabel": "Contact card 1",
-                                            "eventMappings": [
-                                                
-                                            ],
-                                            "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": null
-                                            },
+                                            "eventMappings": [],
+                                            "isHidden": null,
                                             "preset": null,
                                             "propertyValues": {
                                                 "ariaLabel": {
@@ -464,6 +498,10 @@
                                                     "styles": {
                                                         "width": "95%"
                                                     }
+                                                },
+                                                {
+                                                    "element_id": "stylized_text_5",
+                                                    "styles": {}
                                                 },
                                                 {
                                                     "element_id": "contact_card_1",
@@ -622,9 +660,7 @@
                     },
                     "elementId": "__cmfflujjpyfaabbwaaddffhhuaaccwbvsjjjj__column_2",
                     "elementLabel": "Incident summary",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -638,9 +674,7 @@
                                 },
                                 "elementId": "stylized_text_4",
                                 "elementLabel": "Stylized text 4",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "script": {
                                         "apiVersion": "2.0.0",
@@ -684,9 +718,7 @@
                                 },
                                 "elementId": "Incident_Wrapper",
                                 "elementLabel": "Incident_Wrapper",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "script": {
                                         "apiVersion": "2.0.0",
@@ -706,9 +738,7 @@
                                             },
                                             "elementId": "__cmffnaazvnoaabbwbbddffhhuzhhiiiiddrzq__column_1",
                                             "elementLabel": "Column 1",
-                                            "eventMappings": [
-                                                
-                                            ],
+                                            "eventMappings": [],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -722,9 +752,7 @@
                                                         },
                                                         "elementId": "column_layout_2",
                                                         "elementLabel": "Column layout 2",
-                                                        "eventMappings": [
-                                                            
-                                                        ],
+                                                        "eventMappings": [],
                                                         "isHidden": {
                                                             "type": "JSON_LITERAL",
                                                             "value": null
@@ -738,9 +766,7 @@
                                                                     },
                                                                     "elementId": "__cmffohjjljjtaaddheeddffhhuktzltpue__column_1",
                                                                     "elementLabel": "Column 1",
-                                                                    "eventMappings": [
-                                                                        
-                                                                    ],
+                                                                    "eventMappings": [],
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
                                                                         "value": null
@@ -754,9 +780,7 @@
                                                                                 },
                                                                                 "elementId": "stylized_text_3",
                                                                                 "elementLabel": "Stylized text 3",
-                                                                                "eventMappings": [
-                                                                                    
-                                                                                ],
+                                                                                "eventMappings": [],
                                                                                 "isHidden": {
                                                                                     "type": "JSON_LITERAL",
                                                                                     "value": null
@@ -863,9 +887,7 @@
                                                                     },
                                                                     "elementId": "__cmffohjjljjtaaddhffddffhhuxffaaiffzyg__column_2",
                                                                     "elementLabel": "Column 2",
-                                                                    "eventMappings": [
-                                                                        
-                                                                    ],
+                                                                    "eventMappings": [],
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
                                                                         "value": null
@@ -1082,9 +1104,7 @@
                                                                         "layout": {
                                                                             "children": null,
                                                                             "isInline": null,
-                                                                            "items": [
-                                                                                
-                                                                            ],
+                                                                            "items": [],
                                                                             "root": null,
                                                                             "rules": null,
                                                                             "styles": {
@@ -1207,6 +1227,98 @@
                                                                         "type": "CLIENT_SCRIPT"
                                                                     }
                                                                 ]
+                                                            },
+                                                            {
+                                                                "eventMappingId": "eFhhqfffLFCkbZjjciiKyhuRwswC",
+                                                                "isConfiguration": false,
+                                                                "offRowStorageId": null,
+                                                                "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                                                                "sourceEventCorrelationId": null,
+                                                                "sourceEventDefinition": {
+                                                                    "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                                                                    "id": null,
+                                                                    "type": "UXEVENT"
+                                                                },
+                                                                "sourceEventSysId": null,
+                                                                "targets": [
+                                                                    {
+                                                                        "broker": null,
+                                                                        "clientScript": null,
+                                                                        "conditional": null,
+                                                                        "declarativeAction": null,
+                                                                        "event": {
+                                                                            "apiName": "global.NAV_ITEM_SELECTED_RELAY_afeaa7bf83b65210fdcdc710feaad313",
+                                                                            "payload": {
+                                                                                "container": {
+                                                                                    "external": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "fields": {
+                                                                                        "container": {
+                                                                                            "sysId": {
+                                                                                                "binding": {
+                                                                                                    "address": [
+                                                                                                        "sys_id"
+                                                                                                    ]
+                                                                                                },
+                                                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                                                            },
+                                                                                            "table": {
+                                                                                                "binding": {
+                                                                                                    "address": [
+                                                                                                        "table"
+                                                                                                    ]
+                                                                                                },
+                                                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                                                            }
+                                                                                        },
+                                                                                        "type": "MAP_CONTAINER"
+                                                                                    },
+                                                                                    "multiInstField": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "navigationOptions": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": {
+                                                                                            "navigateExternal": true
+                                                                                        }
+                                                                                    },
+                                                                                    "params": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "passiveNavigation": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "redirect": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "route": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": "record"
+                                                                                    },
+                                                                                    "targetRoute": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "title": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    }
+                                                                                },
+                                                                                "type": "MAP_CONTAINER"
+                                                                            },
+                                                                            "sysId": "51390773830f9a106061e470ceaad35a"
+                                                                        },
+                                                                        "operation": null,
+                                                                        "targetId": "NWRXHfggccBaakcjjVANteehWeeddPgE",
+                                                                        "type": "EVENT"
+                                                                    }
+                                                                ]
                                                             }
                                                         ],
                                                         "isHidden": {
@@ -1229,7 +1341,7 @@
                                                             },
                                                             "columns": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": "number,short_description,assignment_group,assigned_to,priority,watch_list"
+                                                                "value": "number,short_description,assigned_to,watch_list,priority,assignment_group"
                                                             },
                                                             "daClientActionContract": {
                                                                 "type": "JSON_LITERAL",
@@ -1241,9 +1353,7 @@
                                                             },
                                                             "exceptedRecords": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": [
-                                                                    
-                                                                ]
+                                                                "value": []
                                                             },
                                                             "fixedQuery": {
                                                                 "script": {
@@ -1439,9 +1549,7 @@
                                                                 "type": "JSON_LITERAL",
                                                                 "value": {
                                                                     "color": "",
-                                                                    "patterns": [
-                                                                        
-                                                                    ]
+                                                                    "patterns": []
                                                                 }
                                                             },
                                                             "highlightedValueConfigId": {
@@ -1526,9 +1634,7 @@
                                                             },
                                                             "selectedRecords": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": [
-                                                                    
-                                                                ]
+                                                                "value": []
                                                             },
                                                             "table": {
                                                                 "type": "JSON_LITERAL",
@@ -1557,9 +1663,7 @@
                                                         },
                                                         "elementId": "column_layout_3",
                                                         "elementLabel": "reports",
-                                                        "eventMappings": [
-                                                            
-                                                        ],
+                                                        "eventMappings": [],
                                                         "isHidden": {
                                                             "type": "JSON_LITERAL",
                                                             "value": null
@@ -1573,9 +1677,7 @@
                                                                     },
                                                                     "elementId": "__cmffuaenibbaabbwsddffhhxmgpyiiccao__column_1",
                                                                     "elementLabel": "Column 1",
-                                                                    "eventMappings": [
-                                                                        
-                                                                    ],
+                                                                    "eventMappings": [],
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
                                                                         "value": null
@@ -1589,9 +1691,7 @@
                                                                                 },
                                                                                 "elementId": "group_by_user_chart",
                                                                                 "elementLabel": "group_by_user_chart",
-                                                                                "eventMappings": [
-                                                                                    
-                                                                                ],
+                                                                                "eventMappings": [],
                                                                                 "isHidden": {
                                                                                     "type": "JSON_LITERAL",
                                                                                     "value": null
@@ -1600,9 +1700,7 @@
                                                                                 "propertyValues": {
                                                                                     "additionalGroupByConfig": {
                                                                                         "type": "JSON_LITERAL",
-                                                                                        "value": [
-                                                                                            
-                                                                                        ]
+                                                                                        "value": []
                                                                                     },
                                                                                     "allowChangeDateRange": {
                                                                                         "type": "JSON_LITERAL",
@@ -1644,9 +1742,7 @@
                                                                                     },
                                                                                     "contextMenuActions": {
                                                                                         "type": "JSON_LITERAL",
-                                                                                        "value": [
-                                                                                            
-                                                                                        ]
+                                                                                        "value": []
                                                                                     },
                                                                                     "dataCategory": {
                                                                                         "type": "JSON_LITERAL",
@@ -1936,9 +2032,7 @@
                                                                                     },
                                                                                     "selectedElements": {
                                                                                         "type": "JSON_LITERAL",
-                                                                                        "value": [
-                                                                                            
-                                                                                        ]
+                                                                                        "value": []
                                                                                     },
                                                                                     "showAbsolutePeriod": {
                                                                                         "type": "JSON_LITERAL",
@@ -2206,9 +2300,7 @@
                                                                     },
                                                                     "elementId": "__cmffuaenibbaabbwtddffhhxxveaegyjj__column_2",
                                                                     "elementLabel": "Column 2",
-                                                                    "eventMappings": [
-                                                                        
-                                                                    ],
+                                                                    "eventMappings": [],
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
                                                                         "value": null
@@ -2222,9 +2314,7 @@
                                                                                 },
                                                                                 "elementId": "group_by_priority_chart",
                                                                                 "elementLabel": "group_by_priority_chart",
-                                                                                "eventMappings": [
-                                                                                    
-                                                                                ],
+                                                                                "eventMappings": [],
                                                                                 "isHidden": {
                                                                                     "type": "JSON_LITERAL",
                                                                                     "value": null
@@ -2233,9 +2323,7 @@
                                                                                 "propertyValues": {
                                                                                     "additionalGroupByConfig": {
                                                                                         "type": "JSON_LITERAL",
-                                                                                        "value": [
-                                                                                            
-                                                                                        ]
+                                                                                        "value": []
                                                                                     },
                                                                                     "allowChangeDateRange": {
                                                                                         "type": "JSON_LITERAL",
@@ -2277,9 +2365,7 @@
                                                                                     },
                                                                                     "contextMenuActions": {
                                                                                         "type": "JSON_LITERAL",
-                                                                                        "value": [
-                                                                                            
-                                                                                        ]
+                                                                                        "value": []
                                                                                     },
                                                                                     "dataCategory": {
                                                                                         "type": "JSON_LITERAL",
@@ -2569,9 +2655,7 @@
                                                                                     },
                                                                                     "selectedElements": {
                                                                                         "type": "JSON_LITERAL",
-                                                                                        "value": [
-                                                                                            
-                                                                                        ]
+                                                                                        "value": []
                                                                                     },
                                                                                     "showAbsolutePeriod": {
                                                                                         "type": "JSON_LITERAL",
@@ -2837,23 +2921,17 @@
                                                                     },
                                                                     "elementId": "__cmffuaenibbaabbwuddffhhxwdwhiddqa__column_3",
                                                                     "elementLabel": "Column 3",
-                                                                    "eventMappings": [
-                                                                        
-                                                                    ],
+                                                                    "eventMappings": [],
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
                                                                         "value": null
                                                                     },
                                                                     "overrides": {
-                                                                        "composition": [
-                                                                            
-                                                                        ],
+                                                                        "composition": [],
                                                                         "layout": {
                                                                             "default": {
                                                                                 "children": null,
-                                                                                "items": [
-                                                                                    
-                                                                                ],
+                                                                                "items": [],
                                                                                 "root": null,
                                                                                 "rules": {
                                                                                     "flex-direction": "row"
@@ -2961,9 +3039,7 @@
                                                                         "layout": {
                                                                             "children": null,
                                                                             "isInline": null,
-                                                                            "items": [
-                                                                                
-                                                                            ],
+                                                                            "items": [],
                                                                             "root": null,
                                                                             "rules": null,
                                                                             "styles": {
@@ -3186,9 +3262,7 @@
                                                 "layout": {
                                                     "children": null,
                                                     "isInline": null,
-                                                    "items": [
-                                                        
-                                                    ],
+                                                    "items": [],
                                                     "root": null,
                                                     "rules": null,
                                                     "styles": {
@@ -3399,9 +3473,7 @@
                         "layout": {
                             "children": null,
                             "isInline": null,
-                            "items": [
-                                
-                            ],
+                            "items": [],
                             "root": null,
                             "rules": null,
                             "styles": {
@@ -3615,9 +3687,7 @@
         },
         "elementId": "Unique_Assignment_Groups",
         "elementLabel": "Unique_Assignment_Groups",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {
             "avgField": {
                 "type": "JSON_LITERAL"
@@ -3768,9 +3838,7 @@
         },
         "elementId": "update_multiple_incidents",
         "elementLabel": "update_multiple_incidents",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {
             "query": {
                 "type": "JSON_LITERAL",
@@ -3789,10 +3857,12 @@
     }
 ]</data>
         <description/>
-        <dispatched_events>4135e4d08303d210fdcdc710feaad3b5</dispatched_events>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events>4135e4d08303d210fdcdc710feaad3b5,51390773830f9a106061e470ceaad35a</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
+        <form_factors>{}</form_factors>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -3849,9 +3919,7 @@
         <macroponent_dependencies/>
         <name>Default</name>
         <output_prop_mapping/>
-        <props>[
-    
-]</props>
+        <props>[]</props>
         <required_translations>[ {
   "message" : "6:56 PM PDT",
   "comment" : ""
@@ -3872,6 +3940,9 @@
   "comment" : ""
 }, {
   "message" : "Escalated",
+  "comment" : ""
+}, {
+  "message" : "Group manager info",
   "comment" : ""
 }, {
   "message" : "Incident",
@@ -3902,6 +3973,7 @@
         <root_component_config/>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
         <state_properties>[
     {
         "fieldType": "json",
@@ -3951,14 +4023,14 @@
         <sys_created_by>rahman</sys_created_by>
         <sys_created_on>2025-01-07 02:15:08</sys_created_on>
         <sys_id>afeaa7bf83b65210fdcdc710feaad313</sys_id>
-        <sys_mod_count>125</sys_mod_count>
+        <sys_mod_count>134</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320">8a09673783b25210fdcdc710feaad320</sys_package>
         <sys_policy/>
         <sys_scope display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</sys_scope>
         <sys_update_name>sys_ux_macroponent_afeaa7bf83b65210fdcdc710feaad313</sys_update_name>
         <sys_updated_by>rahman</sys_updated_by>
-        <sys_updated_on>2025-01-13 05:37:53</sys_updated_on>
+        <sys_updated_on>2025-01-20 05:15:05</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=afeaa7bf83b65210fdcdc710feaad313"/>
 </record_update>
