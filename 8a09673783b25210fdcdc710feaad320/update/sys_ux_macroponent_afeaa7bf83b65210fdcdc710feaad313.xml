@@ -217,20 +217,18 @@
                                                             "clientScript": null,
                                                             "conditional": null,
                                                             "declarativeAction": null,
-                                                            "event": {
-                                                                "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                                                            "event": null,
+                                                            "operation": {
+                                                                "dataBrokerId": "b997a84053021010cbc2ddeeff7b1228",
+                                                                "operationName": "REFRESH",
+                                                                "parentResourceId": "group_members",
                                                                 "payload": {
                                                                     "type": "JSON_LITERAL",
-                                                                    "value": {
-                                                                        "propName": "incidents_selected",
-                                                                        "value": false
-                                                                    }
-                                                                },
-                                                                "sysId": "32408b42ff7a10109046e490703bf176"
+                                                                    "value": {}
+                                                                }
                                                             },
-                                                            "operation": null,
-                                                            "targetId": "cmffuaazrhaabbwgddffhhxzmccgeeorv",
-                                                            "type": "EVENT"
+                                                            "targetId": "GFqUddfVHBkeehhXjjWiiPbeehhLOCChU",
+                                                            "type": "DATABROKER_OP"
                                                         }
                                                     ]
                                                 }
@@ -474,6 +472,98 @@
                                             },
                                             "slot": null,
                                             "styles": null
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "stylized_text_6",
+                                            "elementLabel": "Stylized text 6",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "operation": {
+                                                    "operand": {
+                                                        "binding": {
+                                                            "address": [
+                                                                "seleted_group",
+                                                                "id"
+                                                            ]
+                                                        },
+                                                        "type": "STATE_BINDING"
+                                                    },
+                                                    "operator": "NOT"
+                                                },
+                                                "type": "UNARY"
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "configAria": {
+                                                    "container": {},
+                                                    "type": "MAP_CONTAINER"
+                                                },
+                                                "css": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "* { }"
+                                                },
+                                                "tag": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "h2"
+                                                },
+                                                "text": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Group members"
+                                                    }
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": {}
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "9fd78eb843b288d3e02f91babf3757a2",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "rahman_name_value_table_1",
+                                            "elementLabel": "group_members",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "operation": {
+                                                    "operand": {
+                                                        "binding": {
+                                                            "address": [
+                                                                "seleted_group",
+                                                                "id"
+                                                            ]
+                                                        },
+                                                        "type": "STATE_BINDING"
+                                                    },
+                                                    "operator": "NOT"
+                                                },
+                                                "type": "UNARY"
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "isVertical": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "keyValue": {
+                                                    "script": {
+                                                        "apiVersion": "2.0.0",
+                                                        "controllerElementId": null,
+                                                        "inlineScript": null,
+                                                        "scriptSysId": "8c25034083575e106061e470ceaad3bc",
+                                                        "target": null
+                                                    },
+                                                    "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -507,6 +597,16 @@
                                                     "element_id": "contact_card_1",
                                                     "styles": {
                                                         "width": "95%"
+                                                    }
+                                                },
+                                                {
+                                                    "element_id": "stylized_text_6",
+                                                    "styles": {}
+                                                },
+                                                {
+                                                    "element_id": "rahman_name_value_table_1",
+                                                    "styles": {
+                                                        "width": "96%"
                                                     }
                                                 }
                                             ],
@@ -3854,6 +3954,74 @@
             }
         },
         "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
+        },
+        "elementId": "group_members",
+        "elementLabel": "group_members",
+        "eventMappings": [],
+        "inputValues": {
+            "encodedQuery": {
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "user.active=true^group.sys_id="
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "seleted_group",
+                                        "id"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "CONCAT"
+                },
+                "type": "CLIENT_TRANSFORM"
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "user.name"
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "sys_user_grmember"
+            }
+        },
+        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
@@ -3945,6 +4113,9 @@
   "message" : "Group manager info",
   "comment" : ""
 }, {
+  "message" : "Group members",
+  "comment" : ""
+}, {
   "message" : "Incident",
   "comment" : ""
 }, {
@@ -4023,14 +4194,14 @@
         <sys_created_by>rahman</sys_created_by>
         <sys_created_on>2025-01-07 02:15:08</sys_created_on>
         <sys_id>afeaa7bf83b65210fdcdc710feaad313</sys_id>
-        <sys_mod_count>134</sys_mod_count>
+        <sys_mod_count>142</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320">8a09673783b25210fdcdc710feaad320</sys_package>
         <sys_policy/>
         <sys_scope display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</sys_scope>
         <sys_update_name>sys_ux_macroponent_afeaa7bf83b65210fdcdc710feaad313</sys_update_name>
         <sys_updated_by>rahman</sys_updated_by>
-        <sys_updated_on>2025-01-20 05:15:05</sys_updated_on>
+        <sys_updated_on>2025-01-20 10:13:42</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=afeaa7bf83b65210fdcdc710feaad313"/>
 </record_update>
