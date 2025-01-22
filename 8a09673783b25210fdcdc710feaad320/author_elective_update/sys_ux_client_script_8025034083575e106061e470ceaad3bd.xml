@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">afeaa7bf83b65210fdcdc710feaad313</macroponent>
+        <name>stylized_text_5/isHidden</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	//let groupSelected = api.state.seleted_group && api.state.seleted_group.id;
+	//return !groupSelected;
+  return '';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>rahman</sys_created_by>
+        <sys_created_on>2025-01-22 09:12:49</sys_created_on>
+        <sys_id>8025034083575e106061e470ceaad3bd</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>stylized_text_5/isHidden</sys_name>
+        <sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320">8a09673783b25210fdcdc710feaad320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</sys_scope>
+        <sys_update_name>sys_ux_client_script_8025034083575e106061e470ceaad3bd</sys_update_name>
+        <sys_updated_by>rahman</sys_updated_by>
+        <sys_updated_on>2025-01-22 09:43:42</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</application>
+        <file_path/>
+        <instance_id>0e0264721b96bd1432182f8dee4bcbae</instance_id>
+        <instance_name>dev207567</instance_name>
+        <name>sys_ux_client_script_8025034083575e106061e470ceaad3bd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;afeaa7bf83b65210fdcdc710feaad313&lt;/macroponent&gt;&lt;name&gt;stylized_text_5/isHidden&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	//let groupSelected = api.state.seleted_group &amp;&amp; api.state.seleted_group.id;
+	//return !groupSelected;
+  return '';
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rahman&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 09:12:49&lt;/sys_created_on&gt;&lt;sys_id&gt;8025034083575e106061e470ceaad3bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;stylized_text_5/isHidden&lt;/sys_name&gt;&lt;sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320"&gt;8a09673783b25210fdcdc710feaad320&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Incident Summary UIB"&gt;8a09673783b25210fdcdc710feaad320&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_8025034083575e106061e470ceaad3bd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rahman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 09:43:42&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-370871497</payload_hash>
+        <record_name>stylized_text_5/isHidden</record_name>
+        <reverted_from/>
+        <source>34d17b0693388210eb87b4697bba108f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rahman</sys_created_by>
+        <sys_created_on>2025-01-22 09:43:42</sys_created_on>
+        <sys_id>68712afc835f16506061e470ceaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948d6570500000001</sys_recorded_at>
+        <sys_updated_by>rahman</sys_updated_by>
+        <sys_updated_on>2025-01-22 09:43:42</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>ec712afcc05f1650fb1ac16a9b072620</update_guid>
+        <update_guid_history>ec712afcc05f1650fb1ac16a9b072620:-370871497,48ea563c5a1f1650f14cae5b5d25007d:1231930693,0aaa5a78bd1f1650c8a3d963a79fed5d:676738569,8c6a12f83b1f1650b4fbef7afac9caa4:-1873225180</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rahman</sys_created_by>
+        <sys_created_on>2025-01-22 22:37:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>b18fb9d0d4a6420cbc8e094cc9f8d904</sys_id>
+        <sys_metadata>8025034083575e106061e470ceaad3bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>stylized_text_5/isHidden</sys_name>
+        <sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320">8a09673783b25210fdcdc710feaad320</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</sys_scope>
+        <sys_scope_delete display_value="">3afc182c48464ef7914784ba70dc1e01</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_8025034083575e106061e470ceaad3bd</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_8025034083575e106061e470ceaad3bd">68712afc835f16506061e470ceaad321</sys_update_version>
+        <sys_updated_by>rahman</sys_updated_by>
+        <sys_updated_on>2025-01-22 22:37:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
