@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.UIBHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>UIBHelper</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[class UIBHelper {
+
+	saySomething(){
+		return "Hello world!" + " " + this.#somethingElse();
+	}
+
+	#somethingElse(){
+		return "Something else";
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>rahman</sys_created_by>
+        <sys_created_on>2025-06-27 02:16:54</sys_created_on>
+        <sys_id>ddc2508bc3922210c09f7205e4013125</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>UIBHelper</sys_name>
+        <sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320">8a09673783b25210fdcdc710feaad320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</sys_scope>
+        <sys_update_name>sys_script_include_ddc2508bc3922210c09f7205e4013125</sys_update_name>
+        <sys_updated_by>rahman</sys_updated_by>
+        <sys_updated_on>2025-06-27 02:19:08</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>ddc2508bc3922210c09f7205e4013125</id>
+        <sys_created_by>rahman</sys_created_by>
+        <sys_created_on>2025-06-27 02:16:53</sys_created_on>
+        <sys_id>9833100fc3922210c09f7205e4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rahman</sys_updated_by>
+        <sys_updated_on>2025-06-27 02:16:53</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
