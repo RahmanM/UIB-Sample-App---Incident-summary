@@ -2,33 +2,28 @@
     <sys_ux_page_property action="INSERT_OR_UPDATE">
         <choices/>
         <description/>
-        <name>chrome_footer</name>
+        <name>globalSearchDataConfigId</name>
         <page display_value="Incident Summary">0c8a2f7f83b65210fdcdc710feaad3df</page>
-        <required_translations>[ ]</required_translations>
+        <required_translations/>
         <route/>
         <suffix/>
         <sys_class_name>sys_ux_page_property</sys_class_name>
-        <sys_created_by>rahman</sys_created_by>
-        <sys_created_on>2025-01-07 02:13:21</sys_created_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-13 06:21:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
-        <sys_id>d98a6f7f83b65210fdcdc710feaad383</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>chrome_footer</sys_name>
+        <sys_id>1428e2d493d00f105ddf3aaefaba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
         <sys_package display_value="Incident Summary UIB" source="8a09673783b25210fdcdc710feaad320">8a09673783b25210fdcdc710feaad320</sys_package>
         <sys_policy/>
         <sys_scope display_value="Incident Summary UIB">8a09673783b25210fdcdc710feaad320</sys_scope>
-        <sys_update_name>sys_ux_page_property_d98a6f7f83b65210fdcdc710feaad383</sys_update_name>
+        <sys_update_name>sys_ux_page_property_1428e2d493d00f105ddf3aaefaba1051</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-13 06:21:02</sys_updated_on>
-        <type>json</type>
-        <unique_name>8a09673783b25210fdcdc710feaad320.0c8a2f7f83b65210fdcdc710feaad3df.root.global.chrome_footer</unique_name>
-        <value>{
-    "public_page": {
-        "footer_topbar_options": {},
-        "footer_bar_options": {}
-    }
-}</value>
+        <type>string</type>
+        <unique_name>8a09673783b25210fdcdc710feaad320.0c8a2f7f83b65210fdcdc710feaad3df.root.global.globalSearchDataConfigId</unique_name>
+        <value>null</value>
     </sys_ux_page_property>
-    <sys_translated_text action="delete_multiple" query="documentkey=d98a6f7f83b65210fdcdc710feaad383"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1428e2d493d00f105ddf3aaefaba1051"/>
 </record_update>
